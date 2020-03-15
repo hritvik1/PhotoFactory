@@ -1,0 +1,56 @@
+.second
+{
+	background-color: #2C2C2C;
+}
+.second p
+{
+	color: #FFF;
+	text-align: center;
+}
+.container
+{
+  background-color: #2C2C2C;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+.container h3
+{
+  font-family: Pecita;
+  font-size: 40px;
+}
+.email-box
+{
+  height: 40px;
+  justify-content: center;
+  display: flex;
+}
+.email-box i
+{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn1
+{
+  border: none;
+  outline: none;
+}
+.tbox
+{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus
+{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn1
+{
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
