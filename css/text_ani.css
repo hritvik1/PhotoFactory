@@ -1,0 +1,83 @@
+.wrapper
+{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+}
+#fa
+{
+  color: #FFFFFF;
+}
+.wrapper h3
+{
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 2px #000000;
+  text-decoration-color: black;
+  font-size: 50px;
+  font-family: "The Great Escape";
+}
+span:before
+{
+  content: '';
+  animation: animate 70s infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    content: 'Photography is the story I fail to put into words.';
+    color: #E7717D;
+  }
+  10%
+  {
+    content: 'In photography there is a reality so subtle that it becomes more real than reality.';
+    color: #E8A87C;
+  }
+  20%
+  {
+    content: 'Taking an image, freezing a moment, reveals how rich reality truly is.';
+    color: #C38D9E;
+  }
+  30%
+  {
+    content: 'We are making photographs to understand what our lives mean to us.';
+    color: #659DBD;
+  }
+  40%
+  {
+    content: 'The best thing about a picture is that it never changes, even when the people in it do.';
+    color: #DAAD86;
+  }
+  50%
+  {
+    content: 'Photograph: a picture painted by the sun without instruction in art.';
+    color: #BC986A;
+  }
+  60%
+  {
+    content: 'Essentially what photography is is life lit up.';
+    color: #379683;
+  }
+  70%
+  {
+    content: 'I really believe there are things nobody would see if I didn’t photograph them.';
+    color: #5CDB95;
+  }
+  80%
+  {
+    content: 'Taking pictures is savoring life intensely, every hundredth of a second.';
+    color: #8EE4AF;
+  }
+  90%
+  {
+    content: 'The whole point of taking pictures is so that you don’t have to explain things with words.';
+    color: #7E685A;
+  }
+  100%
+  {
+    content: 'A photograph is a secret about a secret. The more it tells you the less you know.';
+    color: #E27D60;
+  }
+}
